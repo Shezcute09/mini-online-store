@@ -2,7 +2,7 @@
   "name": "mini-online-store-hngstage2-frontend-task",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/Shezcute09/mini-online-store",
+  "homepage": "https://Shezcute09.github.io/mini-online-store",
   "type": "module",
   "scripts": {
     "dev": "vite",
