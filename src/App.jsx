@@ -4,12 +4,14 @@ import Cart from "./pages/Cart";
 import CheckOut_one from "./pages/CheckOut_one";
 import CheckOut_two from "./pages/CheckOut_two";
 import Confirmpayment_one from "./pages/Confirmpayment_one";
+import Error from "./pages/Error";
 
 const App = () => {
   const router = createBrowserRouter([
     {
       path: "/",
       element: <CategoryView />,
+      errorElement: <Error />,
     },
     {
       path: "/cart",
