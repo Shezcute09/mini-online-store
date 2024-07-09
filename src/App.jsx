@@ -5,6 +5,7 @@ import CheckOut_one from "./pages/CheckOut_one";
 import CheckOut_two from "./pages/CheckOut_two";
 import Confirmpayment_one from "./pages/Confirmpayment_one";
 import Error from "./pages/Error";
+import Confirmpayment_two from "./pages/Confirmpayment_two";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -25,9 +26,19 @@ const App = () => {
       path: "/checkout_two",
       element: <CheckOut_two />,
     },
+
+    {
+      path: "/checkout_one",
+      element: <CheckOut_one />,
+    },
+
     {
       path: "/confirmpayment_one",
       element: <Confirmpayment_one />,
+    },
+    {
+      path: "/confirmpayment_two",
+      element: <Confirmpayment_two />,
     },
   ]);
   return <RouterProvider router={router} />;

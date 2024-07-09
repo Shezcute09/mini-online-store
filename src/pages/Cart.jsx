@@ -4,7 +4,7 @@ const Cart = () => {
   return (
     <div>
       <Link to="/checkout_one">
-        <img src="/public/assets/Cart.jpg" alt="" />
+        <img src="/assets/Cart.jpg" alt="" />
       </Link>
     </div>
   );
